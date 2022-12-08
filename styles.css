@@ -62,4 +62,19 @@ img {
 .image {
     display: flex;
     flex: 1;
+    gap: 50px;
+}
+
+.meat {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-list {
+    display: flex;
+    gap: 25px;
 }
