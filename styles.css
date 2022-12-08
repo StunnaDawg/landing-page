@@ -39,11 +39,27 @@ a {
 }
 
 img {
-    max-width: 100%;
     height: auto;
-    fle
+    max-width: 100%;
 }
 
 .hero {
     display: flex;
+    flex: 1;
+    overflow: auto;
+    
+}
+
+.left-side {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+.image {
+    display: flex;
+    flex: 1;
 }
