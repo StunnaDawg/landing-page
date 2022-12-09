@@ -1,12 +1,12 @@
 
 
-html, body {
+body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
-    width: 100%;
-    height: 100%;
+    overflow-y: scroll;
+    min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 h3 {
@@ -86,7 +86,41 @@ img {
 
 .quote {
     background-color: #e5e7eb;
+    font-size: 36px;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.creds {
+    display: flex;
+    font-size: small;
+}
+
+.action {
+    background-color: white;
     display: flex;
     flex: 1;
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-top: auto;
+    justify-content: center;
+}
+
+.action-button {
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
