@@ -84,6 +84,7 @@ img {
     border-radius: 8px;
     font-weight: bolder;
     font-size: larger;
+    border-color:#f9faf8;
 }
 
 .image {
@@ -160,6 +161,7 @@ button {
     border-radius: 25px;
     background-color: #3882f6;
     color: #e5e7eb;
+    border-color: #f9faf8;
 }
 
 .footer {
